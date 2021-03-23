@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'pattern_one.dart';
-import 'pattern_two.dart';
-import 'pattern_three.dart';
-import 'pattern_for.dart';
+import 'ui/pattern_one.dart';
+import 'ui/pattern_two.dart';
+import 'ui/pattern_three.dart';
+import 'ui/pattern_for.dart';
 
 void main() {
   runApp(

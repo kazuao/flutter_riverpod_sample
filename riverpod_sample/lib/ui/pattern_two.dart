@@ -24,7 +24,6 @@ class MyApp2 extends StatelessWidget {
         appBar: AppBar(title: const Text('Riverpod Sample')),
         body: Center(
           child: Consumer(
-            // 静的エラーが出ているが動く。ホットリロードができない。
             builder: (context, watch, child) {
               // builder配下でwatchする
               final incrementNotifier = watch(incrementProvider);
